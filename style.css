@@ -1,0 +1,212 @@
+html {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+body { 
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* margin: auto; */
+  font-family: 'DM Serif Display', serif;
+  color: rgb(102, 101, 101);
+}
+
+#header {
+  background: url("images/jt.jpg");
+  background-size: cover; 
+  height: 660px;
+  -webkit-box-shadow: 0px 14px 26px -1px rgba(0,0,0,0.56);
+  -moz-box-shadow: 0px 14px 26px -1px rgba(0,0,0,0.56);
+  box-shadow: 0px 14px 26px -1px rgba(0,0,0,0.56);
+}
+
+#header .nav-link:hover {
+  color: rgb(185, 155, 155);
+}
+
+#header a {
+  color: rgba(255, 255, 255, 0.966);
+  font-size: 20px;
+}
+
+h2 {
+  color: rgb(14, 8, 8);
+  text-shadow: 2px 2px 2px rgb(185, 155, 155);
+}
+
+h3, h4 {
+  color: rgb(54, 43, 43);
+  text-shadow: 2px 2px 2px rgba(185, 155, 155, 0.61);
+}
+
+
+.topnav {
+  background: black;
+  -webkit-box-shadow: 1px 13px 24px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 13px 24px -9px rgba(0,0,0,0.75);
+  box-shadow: 1px 13px 24px -9px rgba(0,0,0,0.75);
+}
+
+.jumbotron {
+  margin-top: 125px;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 4px rgb(61, 57, 57);
+  -webkit-box-shadow: 2px 2px 24px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 24px -6px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 24px -6px rgba(0,0,0,0.75);
+}
+
+.display-3 {
+  color: rgb(238, 237, 237);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.jumbotron p {
+  color: rgb(238, 237, 237);
+}
+
+
+/* Column container*/
+#columns {  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+
+/* Columns*/
+.side {
+  flex: 30%;
+  background: rgba(251,233,237,1);
+  background: -moz-linear-gradient(left, rgba(251,233,237,1) 0%, rgba(188,203,225,0) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,233,237,1)), color-stop(100%, rgba(188,203,225,0)));
+  background: -webkit-linear-gradient(left, rgba(251,233,237,1) 0%, rgba(188,203,225,0) 100%);
+  background: -o-linear-gradient(left, rgba(251,233,237,1) 0%, rgba(188,203,225,0) 100%);
+  background: -ms-linear-gradient(left, rgba(251,233,237,1) 0%, rgba(188,203,225,0) 100%);
+  background: linear-gradient(to right, rgba(251,233,237,1) 0%, rgba(188,203,225,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe9ed', endColorstr='#bccbe1', GradientType=1 );
+  padding: 50px;
+  -webkit-box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+  -moz-box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+  box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+}
+  
+/* Main column*/
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 50px;
+}
+
+.portrait {
+  background-image: url("images/portrait.jpg");
+  width:100%;
+  height:200px;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}
+  
+/* Fake image*/
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+  
+/* Footer*/
+.footer {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background: #ddd;
+  -webkit-box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+  -moz-box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+  box-shadow: -5px -2px 7px -2px rgba(0,0,0,0.43);
+  background-image: url("images/footer.jpg");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+* {
+  box-sizing: border-box;
+  background: none;
+}
+
+.info {
+  text-align: left;
+}
+
+/* Style inputs*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(46, 45, 45, 0.459);
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background: none;
+  color: rgb(102, 101, 101);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d1c2c22c;
+}
+
+#footer .container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.copyright-container {
+  background: #000;
+  display: block;
+  position: relative;
+  height: 100%;
+  text-align: center;
+}
+
+.copyright-container a {
+  color: rgba(150, 150, 150, 0.966);
+  font-size: 15px;
+}
+
+.copyright-container .link:hover {
+  color: rgb(185, 155, 155);
+}
